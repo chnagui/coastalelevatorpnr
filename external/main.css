@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+body{
+    /* background: #00d4ff; */
+}
+.full-container {
+    width: 90%;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: system-ui;
+    text-transform: uppercase;
+    color: green;
+}
+.title-logo {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+.logo{
+    max-width: 120px;
+    width: 100%;
+}
+.logo img{
+    width: 100%;
+}
+.top-mar {
+    background: #00d4ff;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 5px 0;
+}
+.title-main{
+    background-color: #c987ce;
+}
+.footer-text{
+    font-size: 15px;
+    font-family: cursive;
+    padding: 5px 0;
+}
+section.footer {
+    background: #00d4ff;
+    width: 100%;
+    text-align: center;
+}
+.main-content h2 a {
+    line-height: 0;
+    font: 42px italic bold;
+    color: rgb(212, 36, 36);
+    animation: myfirst 5s linear 2s infinite alternate;
+    text-decoration: none;
+}
+.main-content{
+    padding: 50px 0;
+}
+.main-content h2 a:hover{
+    color: green;
+    text-decoration: underline;
+}
+section.footer p span {
+    color: #d81720;
+    font-family: fantasy;
+}
+.oilcard1, .oilcard2, .oilcard3{
+    width: 350px;
+}
+.oilcard1:hover, .oilcard2:hover, .oilcard3:hover{
+    opacity: 2;
+    cursor: pointer;
+}
+.oilcard1 img, .oilcard2 img, .oilcard3 img {
+    width: 100%;
+    border: 3px solid #ab8484;
+}
+
+.oil-cards-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.title p {
+    font-weight: 900;
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+}
+.address p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.address p:first-child {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@keyframes myfirst {
+    0%   {color:red;}
+    25%  {color:rgb(0, 183, 255);}
+    50%  {color:rgb(66, 36, 199);}
+    75%  {color:green;}
+    100% {color:rgb(255, 0, 55);}
+}
+/* .address {
+    padding-bottom: 20px;
+} */
+.address-contact h2 {
+    text-align: center;
+    border-bottom: 2px solid red;
+    max-width: 162px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+.main-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.map iframe {
+    width: 100%;
+}
+
+
+
+
+
+
+/* media queries for responsive */
+
+@media only screen and (max-width: 1200px){
+    section.footer {
+        background: #00d4ff;
+        position: relative;
+        /* bottom: 0; */
+        /* top: 0; */
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    
+}
+
+@media only screen and (max-width: 992px){
+    
+}
+
+
+@media only screen and (max-width: 768px){
+    
+}
+
+
+@media only screen and (max-width: 560px){
+    
+}
+
