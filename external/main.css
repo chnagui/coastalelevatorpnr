@@ -75,7 +75,7 @@ section.footer p span {
 .oilcard1, .oilcard2, .oilcard3{
     width: 350px;
 }
-.oilcard1, .oilcard2, .oilcard3{
+.oilcard1:hover, .oilcard2:hover, .oilcard3:hover{
     background: transparent;
     opacity: 0.5;
 }
