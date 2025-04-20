@@ -2,7 +2,7 @@ let person = prompt("Please enter your name", "Eg: Monu");
 
 if (person != null) {
   document.getElementById("demo").innerHTML =
-  "Hello " + person + "! How are you today?";
+  "HELLO " + person + "! WELCOME TO COSTAL ELEVATOR SERVICES, PONNURU";
 }
 //Marquee-----
 const marquee = document.getElementById('welcomeMarquee');
